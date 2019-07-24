@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#ffffff"
     tools:context=".MainActivity">
 
     <ImageView
@@ -21,7 +21,7 @@
         />
 
     <EditText
-        android:background="#ffffff"
+        android:background="#ffc107"
         android:id="@+id/username"
         android:padding="10dp"
         android:inputType="text"
@@ -36,7 +36,7 @@
         android:layout_marginTop="50dp"
         />
     <EditText
-        android:background="#ffffff"
+        android:background="#ffc107"
         android:padding="10dp"
         android:id="@+id/password"
         android:inputType="textPassword"
@@ -85,7 +85,7 @@
         android:id="@+id/signup"
         >
         <TextView
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="12sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/colorAccent"
-            android:text=" Sign Up."/>
+            android:text=" Sign Up?"/>
     </LinearLayout>
 
 
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Forgot password?"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:layout_alignRight="@+id/password"
         android:textStyle="bold"
         android:layout_below="@id/login"/>

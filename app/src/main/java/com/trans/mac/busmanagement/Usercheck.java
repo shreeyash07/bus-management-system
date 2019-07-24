@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 public class Usercheck extends AppCompatActivity {
 
@@ -39,9 +40,14 @@ public class Usercheck extends AppCompatActivity {
                 startActivity(new Intent(Usercheck.this, passenger_register.class));
                 finish();
 
-            } else {
+
+
+            } if(Bus.isChecked()) {
                 startActivity(new Intent(Usercheck.this, Bus_register.class));
                 finish();
+            } else {
+                Toast.makeText(Usercheck.this, "Choose one Option", Toast.LENGTH_SHORT).show();
+
             }
 
 
